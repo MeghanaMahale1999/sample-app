@@ -32,16 +32,4 @@
   		<version>3.0.1</version>
   	</dependency>
   </dependencies>
-     <distributionManagement>
-        <repository>
-            <id> server </id>
-            <name> Releases </name>
-            <url>http://devops.platform.minutuscloud.com/nexus/repository/minutus-release/</url>
-        </repository>
-        <snapshotRepository>
-            <id> server </id>
-            <name> Snapshot </name>
-            <url>http://devops.platform.minutuscloud.com/nexus/repository/minutus-snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
