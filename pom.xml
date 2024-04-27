@@ -16,13 +16,12 @@
         </configuration>
       </plugin>
       <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>2.6</version>
-        <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
-          <failOnMissingWebXml>false</failOnMissingWebXml>
-        </configuration>
-      </plugin>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.3.2</version> <!-- Latest as of my last training data -->
+      <configuration>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+     </configuration>
+    </plugin>
     </plugins>
   </build>
   <dependencies>
